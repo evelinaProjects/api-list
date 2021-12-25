@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+.nav-bar-item {
+  word-spacing: 1rem;
+  font-size: 3rem;
+  padding-left: 1rem;
+}

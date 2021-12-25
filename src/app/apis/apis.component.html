@@ -1,0 +1,11 @@
+<ul class="list-container">
+  <li class="list" *ngFor="let api of apis">
+    <div class="list-title">{{api.API}}</div>
+    <div class="list-items">
+      <p> Description : {{api.Description}}</p>
+      <p> Cors : {{api.Cors}}</p>
+      <a href={{api.Link}}>link</a>
+      <p> Category : {{api.Category}}</p>
+    </div>
+  </li>
+</ul>

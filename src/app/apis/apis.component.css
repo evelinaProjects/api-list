@@ -1,0 +1,34 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start space-between;
+  margin: 1rem;
+  gap: 1rem;
+}
+.list {
+  border: 1px solid;
+  width: 13rem;
+  min-height: fit-content;
+}
+.list-title {
+  width: 100%;
+  border-bottom: 1px solid;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  height: fit-content;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1rem;
+  min-height: fit-content;
+  padding: 0.2rem;
+}
+a:visited  {
+  color: blue;
+}
+
+
